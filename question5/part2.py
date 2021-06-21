@@ -51,7 +51,7 @@ def random_neighbor():
     index = final_sensor_points.index(random_sensor)
     return random_sensor, index
 
-
+#function to check coverage
 def coverage(random_sensor, index):
     range_random_sensor = dict[index][2]
     cost_random_sensor = dict[index][1]
