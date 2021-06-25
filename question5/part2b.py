@@ -2,8 +2,8 @@ import random
 from shapely.geometry import Polygon, Point
 
 poly = Polygon([ (0, 0), (500, 0), (0, 500), (500,500)])
-no_of_sensors = 40
-def distribute_sensors(poly, sensors=no_of_sensors):
+no_of_sensors = 30
+def distribute_sensors(poly, sensors=40):
     sensor_points = []
     min_x, min_y, max_x, max_y = poly.bounds
 
